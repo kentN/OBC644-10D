@@ -1,11 +1,11 @@
-# OBC644_10D
+# OBC644-10D
 ATmega-based arduino compatible on-board computer 
 
 ## Features ##
 
 - 3.3V Logic level
-- ATmega644P(4kB RAM 64kB ROM) ATmega1284P(16kB RAM,128kB ROM) 3.3V 8MHz 
-- Size and pin pitch compatible with UP-204GSR Universal PCB
+- ATmega644P or ATmega1284P, 8MHz 
+- Size: 45x45mm  pin pitch compatible with UP-204GSR Universal PCB
 - microSD hinge socket 
 - MPU-9250
 - MS5611
