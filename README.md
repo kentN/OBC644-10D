@@ -1,6 +1,8 @@
 # OBC644-10D
 ATmega644/1284-based arduino compatible on-board computer
 
+！[PCB_3D]( https://github.com/kentN/OBC644-10D/blob/master/Hardware/Documents/OBC644-10D_F.jpg )
+
 ## Features ##
 
 - 3.3V Logic level
