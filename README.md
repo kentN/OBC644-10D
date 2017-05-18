@@ -1,7 +1,7 @@
 # OBC644-10D
 ATmega644/1284-based arduino compatible on-board computer
 
-！[PCB](/img/OBC644-10D_F.jpg)
+！[PCB](img/OBC644-10D_F.jpg)
 
 ## Features ##
 
