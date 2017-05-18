@@ -1,5 +1,5 @@
 # OBC644-10D
-ATmega-based arduino compatible on-board computer 
+ATmega644/1284-based arduino compatible on-board computer
 
 ## Features ##
 
@@ -23,12 +23,13 @@ ATmega-based arduino compatible on-board computer
 
 - analog & Motion Datalogger
 - DIY Space
+- DIY HAB
 
 ----------
 
 ##Project Environment##
 
 - KiCad (4.0.x)
-- Arduino IDE
-- Sanguino bootloader
-- SDfatlib
+- Arduino IDE (1.8.X)
+- Sanguino bootloader ( https://github.com/Lauszus/Sanguino )
+- SDfatlib 
