@@ -31,7 +31,7 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 
 ----------
 
-##Project Environment##
+## Project Environment ##
 
 - KiCad (4.0.x)
 - Arduino IDE (1.8.X)
