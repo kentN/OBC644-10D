@@ -23,15 +23,15 @@ LIBS:RobotCleaner
 LIBS:ROM
 LIBS:Sensor
 LIBS:socket
-LIBS:nLog_10DOF-cache
+LIBS:OBC644-10D-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OBC1284-10D"
-Date "2017-05-10"
-Rev "C"
+Date "2017-06-03"
+Rev "D"
 Comp "Kent Nakazawa (kent_n@outlook.com) (https://github.com/kentN)"
 Comment1 ""
 Comment2 ""
@@ -445,7 +445,7 @@ L R R6
 U 1 1 56AFDA31
 P 4750 6300
 F 0 "R6" H 4850 6450 40  0000 C CNN
-F 1 "3.3k" V 4757 6301 40  0000 C CNN
+F 1 "1k" V 4757 6301 40  0000 C CNN
 F 2 "EIA:0402" V 4680 6300 30  0001 C CNN
 F 3 "" H 4750 6300 30  0000 C CNN
 	1    4750 6300
@@ -478,7 +478,7 @@ L R R5
 U 1 1 56AFDB09
 P 4450 6300
 F 0 "R5" H 4500 6450 40  0000 C CNN
-F 1 "3.3k" V 4457 6301 40  0000 C CNN
+F 1 "1k" V 4457 6301 40  0000 C CNN
 F 2 "EIA:0402" V 4380 6300 30  0001 C CNN
 F 3 "" H 4450 6300 30  0000 C CNN
 	1    4450 6300
@@ -1061,7 +1061,7 @@ U 1 1 58C2AA4A
 P 1500 750
 F 0 "RS1" V 1400 650 40  0000 C CNN
 F 1 "0.01" V 1507 751 40  0000 C CNN
-F 2 "EIA:0805" V 1575 750 30  0000 C CNN
+F 2 "EIA:1206" V 1575 750 30  0000 C CNN
 F 3 "" H 1500 750 30  0000 C CNN
 	1    1500 750 
 	0    1    1    0   
@@ -1719,21 +1719,10 @@ Wire Wire Line
 	1400 4750 1400 5300
 Wire Wire Line
 	1400 5300 1200 5300
-Wire Wire Line
-	1600 1450 1600 1350
-Wire Wire Line
-	1600 1350 1700 1350
 Connection ~ 1700 750 
-Wire Wire Line
-	1300 1350 1500 1350
-Wire Wire Line
-	1500 1350 1500 1450
 Connection ~ 1300 750 
 Wire Wire Line
 	1400 1450 1400 1400
-Wire Wire Line
-	1400 1400 1300 1400
-Connection ~ 1300 1350
 Wire Wire Line
 	1050 1600 950  1600
 Wire Wire Line
@@ -1766,9 +1755,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 750  1700 800 
 Wire Wire Line
-	1300 1400 1300 1100
-Wire Wire Line
-	1700 1350 1700 1100
+	1700 1100 1700 1400
 Wire Wire Line
 	1600 1200 1700 1200
 Connection ~ 1700 1200
@@ -1969,6 +1956,21 @@ Text Label 3850 5950 0    50   ~ 0
 Connection ~ 9800 1250
 Text Notes 8300 1050 0    60   ~ 0
 Optional SMD ROMs
-Text Notes 2650 550  2    40   ~ 0
-RS1 PMR10EZPFU10L0 or ERJ-6BWFR010V
+Wire Wire Line
+	1300 1350 1300 1100
+Wire Wire Line
+	1400 1400 1200 1400
+Wire Wire Line
+	1200 1400 1200 750 
+Connection ~ 1200 750 
+Wire Wire Line
+	1300 1350 1600 1350
+Wire Wire Line
+	1600 1350 1600 1450
+Wire Wire Line
+	1700 1400 1500 1400
+Wire Wire Line
+	1500 1400 1500 1450
+Text Notes 1900 5000 0    40   ~ 0
+INTERNAL VandGap\n1100mV\n2560mV
 $EndSCHEMATC
