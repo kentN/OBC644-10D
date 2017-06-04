@@ -29,9 +29,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "OBC1284-10D"
-Date "2017-06-03"
-Rev "D"
+Title "OBC644-10D"
+Date "2017-06-04"
+Rev "E"
 Comp "Kent Nakazawa (kent_n@outlook.com) (https://github.com/kentN)"
 Comment1 ""
 Comment2 ""
@@ -1973,4 +1973,28 @@ Wire Wire Line
 	1500 1400 1500 1450
 Text Notes 1900 5000 0    40   ~ 0
 INTERNAL VandGap\n1100mV\n2560mV
+$Comp
+L CONN_1 J6
+U 1 1 5934CA04
+P 6400 3650
+F 0 "J6" H 6480 3650 60  0000 L CNN
+F 1 "CONN_1" H 6400 3705 30  0001 C CNN
+F 2 "CONN_2.54MM:1P" H 6400 3550 40  0000 C CNN
+F 3 "" H 6400 3650 60  0000 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3650 6100 3650
+$Comp
+L +3.3V #PWR047
+U 1 1 5934D1CE
+P 6100 3650
+F 0 "#PWR047" H 6100 3700 10  0001 C CNN
+F 1 "+3.3V" H 6100 3725 30  0000 C CNN
+F 2 "" H 6100 3650 60  0000 C CNN
+F 3 "" H 6100 3650 60  0000 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
