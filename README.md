@@ -1,9 +1,11 @@
 # OBC644-10D
 ATmega644/1284-based arduino compatible on-board computer Reference Model
 
-![PCB_3D](/img/OBC644_BRD.jpg?raw=true)
+![PCB_3D](/img/OBC644-10D-BRD.png?raw=true)
 
 ## Features ##
+
+![system_diagram](/img/SystemBlock.png?raw=true)
 
 - 3.3V system / LVTTL Logic level
 - Two user Power Output with ON-OFF Control
