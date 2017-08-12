@@ -1,7 +1,7 @@
 # OBC644-10D
 ATmega644/1284-based arduino compatible on-board computer Reference Model
 
-![PCB_3D](/img/OBC644-10D-BRD.png?raw=true)
+![PCB_3D](/img/OBC644-10D_PCB.png?raw=true)
 
 ## Features ##
 
@@ -12,12 +12,12 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 - ATmega644P or ATmega1284P, 8MHz
 - Size: 45x45mm  pin pitch compatible with UP-204GSR Universal PCB
 - microSD hinge socket
-- Two SPI ROM Option (FlashROM, FRAM, etc..)
+- Two SPI ROM Option (FlashROM, FRAM, etc..) support SO8W and SO8N
 - MPU-9250 9Dof Sensor
 - MS5611  Baromater
 - RX8900 RealTime Clock (TCXO) (Backup Battery Option)
 - INA226 Current Shunt monitor
-- I2C x1, UART x2, SPIx1, UserADCch x8, GPIOx12  
+- I2C x1, UART x2, SPIx1, UserADCch x8, GPIOx14  
 
 ----------
 ## PIN Map ##
@@ -28,6 +28,7 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 ## Applications ##
 
 - analog & Motion Datalogger
+- Energy Harvest sensor
 - DIY Space
 - DIY HAB
 
