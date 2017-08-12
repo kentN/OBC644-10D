@@ -3,10 +3,9 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 
 ![PCB_3D](/img/OBC644-10D_PCB.png?raw=true)
 
+----------
+
 ## Features ##
-
-![system_diagram](/img/SystemBlock.png?raw=true)
-
 - 3.3V system / LVTTL Logic level
 - Two user Power Output with ON-OFF Control
 - ATmega644P or ATmega1284P, 8MHz
@@ -20,6 +19,10 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 - I2C x1, UART x2, SPIx1, UserADCch x8, GPIOx14  
 
 ----------
+
+## System Block ##
+![system_diagram](/img/SystemBlock.png?raw=true)
+
 ## PIN Map ##
 - VIN has Reverse current protection
 
