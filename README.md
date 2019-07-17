@@ -44,3 +44,7 @@ ATmega644/1284-based arduino compatible on-board computer Reference Model
 - Arduino IDE (1.8.X)
 - Sanguino bootloader ( https://github.com/Lauszus/Sanguino )
 - SDfatlib 
+
+## Project Status ##
+
+- end of life (EOL)
